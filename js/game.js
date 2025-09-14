@@ -868,7 +868,7 @@ function updateVisualHUD() {
   const foodContainer = document.getElementById('foodContainer');
   foodContainer.innerHTML = '';
   const tunaIcon = document.createElement('img');
-  tunaIcon.src = '/assets/items/Tuna.png';
+  tunaIcon.src = 'assets/items/Tuna.png';
   tunaIcon.className = 'tuna-icon';
   foodContainer.appendChild(tunaIcon);
   const foodText = document.createElement('span');
