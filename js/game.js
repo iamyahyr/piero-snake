@@ -858,7 +858,7 @@ function updateVisualHUD() {
   heartsContainer.innerHTML = '';
   for (let i = 0; i < 3; i++) {
     const heart = document.createElement('img');
-    heart.src = '/assets/items/Heart.png';
+    heart.src = 'assets/items/Heart.png';
     heart.className = 'heart-icon';
     heart.style.opacity = i < lives ? '1' : '0.3';
     heartsContainer.appendChild(heart);
