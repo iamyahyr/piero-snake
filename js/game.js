@@ -31,10 +31,10 @@ function loadImage(src) {
   });
 }
 const ASSETS = {
-  head: '/assets/hamster/Head.png',
-  body: '/assets/hamster/Body.png',
-  tuna: '/assets/items/Tuna.png',
-  heart: '/assets/items/Heart.png',
+  head: 'assets/hamster/Head.png',
+  body: 'assets/hamster/Body.png',
+  tuna: 'assets/items/Tuna.png',
+  heart: 'assets/items/Heart.png',
 };
 let IMG = { head: null, body: null, tuna: null, heart: null };
 
