@@ -15,8 +15,8 @@ const LEVELS = [
   { level: 6, food: 15, walls: 10 },
   { level: 7, food: 17, walls: 12 },
   { level: 8, food: 19, walls: 14 },
-  { level: 9, food: 21, walls: 16 },
-  { level: 10, food: 23, walls: 18 }
+  { level: 9, food: 23, walls: 16 },
+  { level: 10, food: 27, walls: 18 }
 ];
 
 const canvas = document.getElementById('game');
